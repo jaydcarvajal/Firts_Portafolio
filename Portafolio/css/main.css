@@ -1,0 +1,49 @@
+.header-img{
+	background-color: black;
+	height: 150px;
+}.header-img img{
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 20px;
+    max-width: 300px;
+
+}.div{
+	background-color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+}.contact{
+	margin-bottom:20px; 
+}footer{
+	background-color: black;
+	height: 25vh;
+}.footer-imgs{
+	width: 40px;
+}footer p{
+	color:white;
+}.footer-imgs img{
+	width: 30px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
